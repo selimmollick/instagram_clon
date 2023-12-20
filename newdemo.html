@@ -1,0 +1,740 @@
+<html>
+
+<head>
+
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    *{
+
+padding: 0;
+
+margin: 0;
+
+}
+
+
+
+.circle {
+
+position: relative;
+
+width: 100px;
+
+height: 100px;
+
+}
+
+
+
+.circle svg {
+
+fill: none;
+
+stroke: #8a3ab9;
+
+stroke-linecap: round;
+
+stroke-width: 3;
+
+stroke-dasharray: 1;
+
+stroke-dashoffset: 0;
+
+animation: stroke-draw 6s ease-out infinite alternate;
+
+}
+
+
+
+.circle img {
+
+position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+
+width: 70px;
+
+border-radius: 50%;
+
+}
+
+
+
+@keyframes stroke-draw {
+
+from {
+
+  stroke: #8a3ab9;
+
+  stroke-dasharray: 1;
+
+}
+
+
+
+to {
+
+  stroke: #cd486b;
+
+  transform: rotate(180deg);
+
+  stroke-dasharray: 8;
+
+}
+
+}
+
+
+
+h4 {
+
+margin: 15px;
+
+padding: 0;
+
+}
+
+
+
+.instaslider {
+
+display: flex;
+
+justify-content: flex-start;
+
+align-items: stretch;
+
+width: 700px;
+
+}
+
+
+
+.instaslide {
+
+ display: flex;
+
+flex-direction: column;
+
+justify-content: space-between;
+
+flex: 2;
+
+}
+
+
+
+* {
+
+box-sizing: border-box;
+
+}
+
+
+
+/* .column {
+
+float: left;
+
+width: ;
+
+padding: 3px;
+
+} */
+
+
+
+div.scrollmenuitems {
+
+background-color: #F0F0F0;
+
+overflow: auto;
+
+white-space: nowrap;
+
+}
+
+
+
+div.scrollmenuitems a {
+
+display: inline-block;
+
+color: black;
+
+text-align: center;
+
+padding: 5px;
+
+text-decoration: none;
+
+}
+
+
+
+div.scrollmenuitems a:hover {
+
+background-color: #777;
+
+}
+
+
+
+footer {
+
+  background-color: #555;
+
+  color: #fff;
+
+  font-size: 14px;
+
+  bottom: 0;
+
+  position: fixed;
+
+  left: 0;
+
+  right: 0;
+
+  text-align: center;
+
+  z-index: 999;
+
+}
+
+
+
+footer p {
+
+  margin: 10px 0;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida  Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+footer a {
+
+  color: #ff6f61;
+
+  text-decoration: none;
+
+margin-right:5px;
+
+}
+  </style>
+
+
+
+</head>
+
+<body style="background-color:#ffffff;">
+
+  <h4>Instagram Story Slider</h4>
+
+  <div class="scrollmenuitems">
+
+    <div class="column">
+
+      <div class="instaslider">
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-u1UrQa-msC0/X9stORD85QI/AAAAAAAAP0w/SurazwkhXoYdyHXdpwjwod02co3lskr1wCLcBGAsYHQ/s420/img-1.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-ySz2L4L0qks/X9stOl3Ci6I/AAAAAAAAP00/7mLBcPLlDi0ZeijqroIjvbzduovpcg2YQCLcBGAsYHQ/s420/img-2.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-ON-pDPyFzus/X9stO-YoS6I/AAAAAAAAP04/3LNmvg_xXcYplhrd3278mQsduPFIMRPZACLcBGAsYHQ/s420/img-3.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-u1UrQa-msC0/X9stORD85QI/AAAAAAAAP0w/SurazwkhXoYdyHXdpwjwod02co3lskr1wCLcBGAsYHQ/s420/img-1.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-ySz2L4L0qks/X9stOl3Ci6I/AAAAAAAAP00/7mLBcPLlDi0ZeijqroIjvbzduovpcg2YQCLcBGAsYHQ/s420/img-2.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-ON-pDPyFzus/X9stO-YoS6I/AAAAAAAAP04/3LNmvg_xXcYplhrd3278mQsduPFIMRPZACLcBGAsYHQ/s420/img-3.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-u1UrQa-msC0/X9stORD85QI/AAAAAAAAP0w/SurazwkhXoYdyHXdpwjwod02co3lskr1wCLcBGAsYHQ/s420/img-1.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-ySz2L4L0qks/X9stOl3Ci6I/AAAAAAAAP00/7mLBcPLlDi0ZeijqroIjvbzduovpcg2YQCLcBGAsYHQ/s420/img-2.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-ON-pDPyFzus/X9stO-YoS6I/AAAAAAAAP04/3LNmvg_xXcYplhrd3278mQsduPFIMRPZACLcBGAsYHQ/s420/img-3.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-u1UrQa-msC0/X9stORD85QI/AAAAAAAAP0w/SurazwkhXoYdyHXdpwjwod02co3lskr1wCLcBGAsYHQ/s420/img-1.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-ySz2L4L0qks/X9stOl3Ci6I/AAAAAAAAP00/7mLBcPLlDi0ZeijqroIjvbzduovpcg2YQCLcBGAsYHQ/s420/img-2.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-ON-pDPyFzus/X9stO-YoS6I/AAAAAAAAP04/3LNmvg_xXcYplhrd3278mQsduPFIMRPZACLcBGAsYHQ/s420/img-3.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-u1UrQa-msC0/X9stORD85QI/AAAAAAAAP0w/SurazwkhXoYdyHXdpwjwod02co3lskr1wCLcBGAsYHQ/s420/img-1.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-ySz2L4L0qks/X9stOl3Ci6I/AAAAAAAAP00/7mLBcPLlDi0ZeijqroIjvbzduovpcg2YQCLcBGAsYHQ/s420/img-2.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+        <div class="instaslide">
+
+          <div class="circle">
+
+            <img
+              src="https://1.bp.blogspot.com/-ON-pDPyFzus/X9stO-YoS6I/AAAAAAAAP04/3LNmvg_xXcYplhrd3278mQsduPFIMRPZACLcBGAsYHQ/s420/img-3.jpg"
+              alt="" />
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+              style="enable-background:new -580 439 577.9 194;" xml:space="preserve">
+
+              <circle cx="50" cy="50" r="40"></circle>
+
+            </svg>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script>
+    const slider = document.getElementsByClassName('instaslider')[0];
+
+const timeline = new TimelineLite();
+
+const info = document.getElementsByClassName('c-drag')[0];
+
+let canMove = false;
+
+let touchDown = 0;
+
+let prevX = 0;
+
+let slides = document.getElementsByClassName('instaslide');
+
+const slideWidth = slides[0].offsetWidth + 20;
+
+const init = () => {
+
+  slider.addEventListener('mousedown', handleMouse);
+
+  slider.addEventListener('mouseup', handleMouse);
+
+  slider.addEventListener('mousemove', handleMove);
+
+  slider.addEventListener('touchstart', handleTouch);
+
+  slider.addEventListener('touchmove', handleTouchMove);
+
+};
+
+const handleMouse = e => {
+
+  if (e.type === 'mouseup') {
+
+    canMove = false;
+
+  } else {
+
+    canMove = true;
+
+  }
+
+};
+
+const handleMove = e => {
+
+  if (e.pageX < prevX && canMove) {
+
+    info.innerHTML = 'Swiping left!';
+
+    handleSwipeLeft();
+
+    canMove = false;
+
+  } else if (e.pageX > prevX && canMove) {
+
+    info.innerHTML = 'Swiping right!';
+
+    handleSwipeRight();
+
+    canMove = false;
+
+  }
+
+  prevX = e.pageX;
+
+};
+
+const handleTouch = e => {
+
+  touchDown = e.touches[0].clientX
+
+}
+
+const handleTouchMove = e => {
+
+  if (!touchDown) {
+
+    return
+
+  }
+
+  const touchUp = e.touches[0].clientX
+
+  const touchDiff = touchDown - touchUp
+
+  if (touchDiff > 0) {
+
+    info.innerHTML = 'Swiping left!';
+
+    handleSwipeLeft();
+
+  } else {
+
+    info.innerHTML = 'Swiping right!';
+
+    handleSwipeRight();
+
+  }
+
+   touchDown = null
+
+ };
+
+const handleSwipeLeft = () => {  
+
+  timeline.fromTo(slider, 1, 
+
+    {
+
+      x: '0px'
+
+    },
+
+    {
+
+      x: `-${slideWidth}px`,
+
+      ease: Power4.easeOut
+
+    }
+
+  );
+
+  timeline.to(slider, 0.001, 
+
+    {
+
+      x: '0px',
+
+      onComplete: () => {
+
+        slider.appendChild(slides[0]);
+
+        slides = document.getElementsByClassName('instaslide');
+
+      }
+
+    }
+
+  );
+
+};
+
+const handleSwipeRight = () => {  
+
+  timeline.to(slider, 0.001, 
+
+    {
+
+      x: `-${slideWidth}px`,
+
+      onComplete: () => {
+
+        const first = slides[0];
+
+        const last = slides[slides.length - 1];
+
+        slider.insertBefore(last, first);
+
+        slides = document.getElementsByClassName('instaslide');
+
+      }
+
+    }
+
+  );
+
+  timeline.to(slider, 1, 
+
+    {
+
+      x: `0px`,
+
+      ease: Power4.easeOut
+
+    }
+
+  );
+
+};
+
+init();
+
+
+  </script>
+
+</body>
+
+<script src="source.js"></script>
+
+<footer>
+
+  <p>
+
+    Created by
+
+    <a target="_blank" href="">Max</a>
+
+  </p>
+
+</footer>
+
+</html>
